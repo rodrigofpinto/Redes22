@@ -5,68 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>HTML</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#tecnologias">Tecnologias</a>
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+            </ul>
         </nav>
     </header>
     <div>
         <main>
-            <section id="inicio">
-                <h1>Sobre mim</h1>
+            
+            <section id="sobre-mim">
+                <h1>Rodrigo Pinto</h1>
+                <img src="images/eu.jpeg" alt="">
+                <h1><u>Sobre mim</u></h1>
                 <p>
                     Sou um desenvolvedor web especializado em frontend, com experiência sólida na criação de interfaces de utilizador envolventes e de alta qualidade. Tenho um histórico comprovado de colaboração em diversos projetos, nos quais demonstrei a minha capacidade de transformar designs em websites funcionais e esteticamente agradáveis.
                     Destaco-me pela minha atenção aos detalhes, habilidade em resolver problemas e dedicação em proporcionar uma experiência de utilizador excepcional. Estou comprometido em oferecer serviços que atendam às necessidades específicas de cada cliente, garantindo resultados que se destacam da concorrência.
                 </p>
-                <h2>Hobbies</h2>
+                <h3>Hobbies</h3>
                 <p>Meus hobbies são os estudos e explorar novos conhecimentos, além de relaxar a assistir vídeos que despertam o meu interesse e curiosidade.</p>
             </section>
             <hr/>
             <section class="projetos" id="projetos">
-                <h1>Projetos</h1>
-                <div class="projeto">
-                    <h2>Loja de Roupa Online</h2>
-                    <p>HTML / CSS / JS</p>
-                </div>
-                <div>
-                    <h2>Portfolio</h2>
-                    <p>HTML / CSS / JS / JSON</p>
-                </div>
-                <div>
-                    <h2>Casa Antiga Restaurante</h2>
-                    <p>HTML / CSS / JS / PHP</p>
-                </div>
-                <div>
-                    <h2>Login Page</h2>
-                    <p>HTML / CSS / JS / PHP</p>
-                </div>
+                <h1><u>Projetos</u></h1>
+                <ul style="list-style: none;">
+                    <li>
+                        <h3>Loja de Roupa Online</h3>
+                        <p>Tecnologias utilizadas: <i>HTML / CSS / JS</i></p>
+                        <img src="images/markfleek1site.png" alt="">
+                    </li>
+                    <div>
+                        <h3>Loja de Roupa Online</h3>
+                        <p>Tecnologias utilizadas: <i>WORDPRESS</i></p>
+                        <img src="images/markfleeksite2.png" alt="">
+                    </li>
+                    <li>
+                        <h3>Portfolio</h3>
+                        <p>Tecnologias utilizadas: <i>HTML / CSS / JS / JSON</i></p>
+                        <img src="images/portfoliosite.png" alt="">
+                    </li>
+                    <li>
+                        <h3>Casa Antiga Restaurante</h3>
+                        <p>Tecnologias utilizadas: <i>HTML / CSS / JS / PHP</i></p>
+                        <img src="images/casaantigasite.png" alt="">
+                    </li>
+                </ul>
             </section>
             <hr/>
-            <section class="tecnologias">
-                <h1>Tecnologias</h1>
-                <div>
-                    <span>HTML</span>
-                </div>
-                <div>
-                    <span>CSS</span>
-                </div>
-                <div>
-                    <span>JavaScript</span>
-                </div>
-                <div>
-                    <span>PHP</span>
-                </div>
-                <div>
-                    <span>C#</span>
-                </div>
-                <div>
-                    <span>Python</span>
-                </div>
+            <section class="tecnologias" id="tecnologias">
+                <h1><u>Tecnologias</u></h1>
+                <ul>
+                    <li>
+                        <span title="HyperText Markup Language">HTML</span>
+                    </li>
+                    <li>
+                        <span title="Cascading Style Sheet">CSS</span>
+                    </li>
+                    <li>
+                        <span title="JavaScript">JavaScript</span>
+                    </li>
+                    <li>
+                        <span title="Hypertext Preprocessor">PHP</span>
+                    </li>
+                    <li>
+                        <span title="C Sharp">C#</span>
+                    </li>
+                    <li>
+                        <span title="Python">Python</span>
+                    </li>
+                    <li>
+                        <span title="JavaScript Object Notation">Json</span>
+                    </li>
+                </ul>
             </section>
+            <hr/>
             <footer>
                 <p>Desenvolvido por <a href="https://github.com/rodrigofpinto">@Rodrigo Pinto</a></p>
             </footer>
