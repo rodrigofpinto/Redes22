@@ -6,9 +6,49 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>HTML</title>
     <style>
+        * {
+            box-sizing: border-box;
+
+        }
         html {
             scroll-behavior: smooth;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'Forum', 'DM Sans', 'Poppins', sans-serif;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        td {
+            color: #555;
+        }
+
+        td:last-child {
+            font-style: italic;
+            color: #777;
+        }
+
     </style>
 </head>
 <body>
@@ -22,7 +62,7 @@
             </ul>
         </nav>
     </header>
-    <main>          
+    <main>  
         <section id="sobre-mim">
             <h1>Rodrigo Pinto</h1>
             <img src="images/eu.jpeg" alt="">
@@ -60,6 +100,36 @@
                 </li>
             </ul>
         </section>
+        <table >
+            <tr>
+                <th>Id</th>
+                <th>Projetos</th>
+                <th>Objetivo</th>
+                <th>Tecnologias</th>
+                <th>Dificuldades</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Casa Antiga</td>
+                <td>PAP</td>
+                <td>HTML / CSS / JAVASCRIPT / LARAVEL / JSON</td>
+                <td>Design do WebSite</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>MarkFleek</td>
+                <td>Trabalho PSI</td>
+                <td>HTML / CSS / JAVASCRIPT / JSON</td>
+                <td>Fazer o LightMode e o DarkMode</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>MarkFleek</td>
+                <td>Trabalho PSI</td>
+                <td>WORDPRESS</td>
+                <td>Aprender a lidar com o elementor no incio</td>
+            </tr>
+        </table>
         <hr/>
         <section class="tecnologias" id="tecnologias">
             <h1><u>Tecnologias</u></h1>
