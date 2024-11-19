@@ -1,0 +1,41 @@
+.section-projects {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-projects {
+    display: grid;
+    grid-template-columns: 250px 250px 250px ;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card-project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    
+}
+.image-project {
+    border-radius: 10px;
+    width: 100%;
+    height: 135px;
+}
+.card-projects-text {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap: 5px;
+
+}
+
+.details-project {
+    font-size: 12px;
+    color: #ffffff72;
+    text-transform: uppercase;
+}
+.section-projects .button {
+    margin-top: 20px;
+}

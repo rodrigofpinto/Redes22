@@ -1,167 +1,133 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>HTML</title>
-    <style>
-        * {
-            box-sizing: border-box;
-
-        }
-        html {
-            scroll-behavior: smooth;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-family: 'Forum', 'DM Sans', 'Poppins', sans-serif;
-            margin-top: 20px;
-        }
-
-        th, td {
-            padding: 12px 15px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-
-        th {
-            background-color: #333;
-            color: #fff;
-            font-weight: bold;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        tr:hover {
-            background-color: #ddd;
-        }
-
-        td {
-            color: #555;
-        }
-
-        td:last-child {
-            font-style: italic;
-            color: #777;
-        }
-
-    </style>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/section-projetcs.css">
+    <link rel="stylesheet" href="assets/css/section-technologies.css">
+    <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h1>Menu</h1>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#tecnologias">Tecnologias</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <span class="logo">Rodrigo Pinto</span>
+        <div class="header-infos">
+            <a href="#">pintorodrigo2007@gmail.com</a>
+            <a href="#">967 964 209</a>
+        </div>
+        <a href="" class="button">Contactar</a>
     </header>
-    <main>  
-        <section id="sobre-mim">
-            <h1>Rodrigo Pinto</h1>
-            <img src="images/eu.jpeg" alt="">
-            <h1><u>Sobre mim</u></h1>
-            <p>
-                Sou um desenvolvedor web especializado em frontend, com experiência sólida na criação de interfaces de utilizador envolventes e de alta qualidade. Tenho um histórico comprovado de colaboração em diversos projetos, nos quais demonstrei a minha capacidade de transformar designs em websites funcionais e esteticamente agradáveis.
-                Destaco-me pela minha atenção aos detalhes, habilidade em resolver problemas e dedicação em proporcionar uma experiência de utilizador excepcional. Estou comprometido em oferecer serviços que atendam às necessidades específicas de cada cliente, garantindo resultados que se destacam da concorrência.
-            </p>
-            <h3>Hobbies</h3>
-            <p>Meus hobbies são os estudos e explorar novos conhecimentos, além de relaxar a assistir vídeos que despertam o meu interesse e curiosidade.</p>
-        </section>
-        <hr/>
-        <section class="projetos" id="projetos">
-            <h1><u>Projetos</u></h1>
-            <ul style="list-style: none;">
-                <li>
-                    <h3>Loja de Roupa Online</h3>
-                    <p>Tecnologias utilizadas: <i>HTML / CSS / JS</i></p>
-                    <img src="images/markfleek1site.png" alt="">
-                </li>
-                <div>
-                    <h3>Loja de Roupa Online</h3>
-                    <p>Tecnologias utilizadas: <i>WORDPRESS</i></p>
-                    <img src="images/markfleeksite2.png" alt="">
-                </li>
-                <li>
-                    <h3>Portfolio</h3>
-                    <p>Tecnologias utilizadas: <i>HTML / CSS / JS / JSON</i></p>
-                    <img src="images/portfoliosite.png" alt="">
-                </li>
-                <li>
-                    <h3>Casa Antiga Restaurante</h3>
-                    <p>Tecnologias utilizadas: <i>HTML / CSS / JS / PHP</i></p>
-                    <img src="images/casaantigasite.png" alt="">
-                </li>
-            </ul>
-        </section>
-        <table >
-            <tr>
-                <th>Id</th>
-                <th>Projetos</th>
-                <th>Objetivo</th>
-                <th>Tecnologias</th>
-                <th>Dificuldades</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Casa Antiga</td>
-                <td>PAP</td>
-                <td>HTML / CSS / JAVASCRIPT / LARAVEL / JSON</td>
-                <td>Design do WebSite</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>MarkFleek</td>
-                <td>Trabalho PSI</td>
-                <td>HTML / CSS / JAVASCRIPT / JSON</td>
-                <td>Fazer o LightMode e o DarkMode</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>MarkFleek</td>
-                <td>Trabalho PSI</td>
-                <td>WORDPRESS</td>
-                <td>Aprender a lidar com o elementor no incio</td>
-            </tr>
-        </table>
-        <hr/>
-        <section class="tecnologias" id="tecnologias">
-            <h1><u>Tecnologias</u></h1>
-            <ul>
-                <li>
-                    <span title="HyperText Markup Language">HTML</span>
-                </li>
-                <li>
-                    <span title="Cascading Style Sheet">CSS</span>
-                </li>
-                <li>
-                    <span title="JavaScript">JavaScript</span>
-                </li>
-                <li>
-                    <span title="Hypertext Preprocessor">PHP</span>
-                </li>
-                <li>
-                    <span title="C Sharp">C#</span>
-                </li>
-                <li>
-                    <span title="Python">Python</span>
-                </li>
-                <li>
-                    <span title="JavaScript Object Notation">Json</span>
-                </li>
-            </ul>
-        </section>
-        <hr/>
-    </main>
-    <footer>
-        <p>Desenvolvido por <a href="https://github.com/rodrigofpinto">@Rodrigo Pinto</a></p>
-    </footer>
-    
+    <section class="banner">
+        <div>
+            <h1 class="banner-title">Web Developer</h1>
+            <p class="text">Conheça um pouco do meu trabalho com este portefólio, onde pode encontrar projetos
+                realizados, tecnoligias conhecidas.</p>
+        </div>
+        <img src="assets/images/bg-3.2ab5f87737c4f714b83f.svg" alt="">
+    </section>
+    <section class="section-projects">
+        <h1><span class="title">Projetos</span></h1>
+        <span class="headling">Aqui estão alguns dos projetos que já tive envolvido</span>
+        <div class="box-projects">
+            <div class="card-project">
+                <img src="assets/images/casaantigasite.png" alt="Casa Antiga" class="image-project">
+                <div class="card-projects-text">
+                    <span class="name-project">Casa Antiga</span>
+                    <span class="details-project">HTML / CSS / JavaScript / Laravel</span>
+                </div>
+            </div>
+            <div class="card-project">
+                <img src="assets/images/markfleeksite2.png" alt="Casa Antiga" class="image-project">
+                <div class="card-projects-text">
+                    <span class="name-project">MarkFleek WP</span>
+                    <span class="details-project">WordPress</span>
+                </div>
+            </div>
+            <div class="card-project">
+                <img src="assets/images/markfleek1site.png" alt="Casa Antiga" class="image-project">
+                <div class="card-projects-text">
+                    <span class="name-project">MarkFleek</span>
+                    <span class="details-project">HTML / CSS / JavaScript</span>
+                </div>
+            </div>
+            <div class="card-project">
+                <img src="assets/images/portfoliosite.png" alt="Casa Antiga" class="image-project">
+                <div class="card-projects-text">
+                    <span class="name-project">Portefolio</span>
+                    <span class="details-project">HTML / CSS / JavaScript / Json</span>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/rodrigofpinto" class="button">VER NO GITHUB</a>
+    </section>
+    <section class="section-technologies">
+        <div class="box-technologies">
+            <h1><span class="title">Tecnologias</span></h1>
+            <span class="headling">Usadas nos projetos</span>
+            <div class="box-cards-technologies">
+                <div class="card-technologies">
+                    <img src="assets/images/html-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">HTML</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/css-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">CSS</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/javascript-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">JavaScript</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/sass-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">SASS</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/tailwind-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">Tailwind</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/bootsrap-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">Bootstrap</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/figma-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">Figma</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/photoshop-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">Photoshop</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/python-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">Python</span>
+                </div>
+                <div class="card-technologies">
+                    <img src="assets/images/java-icon.png" alt="" class="image-technologie">
+                    <span class="name-technologie">Java</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-aboutme">
+        <picture>
+            <img src="" alt="">
+        </picture>
+        <div>
+            <h1><span class="title">Sobre mim</span></h1>
+            <span class="text">UProfissional em constante evolução, empenhado em aprimorar suas habilidades e conhecimentos. Com uma abordagem cuidadosa e detalhista, valoriza a precisão e a organização no desenvolvimento de projetos, especialmente na área de web design e programação. Apaixonado por criar soluções estéticas e funcionais, seu foco está em entregar experiências elegantes e intuitivas para os usuários.</span>
+        </div>
+    </section>
+    <section class="section-certificates">
+        <div class="box-certeficates left">
+            <h1><span class="title">Diplomas e <br>certificados</span></h1>
+            <span class="certeficates-number">1 / <span>1</span></span>
+            <span class="certeficates-name">Beleza Epibiana</span>
+            <span class="certeficates-from">By EPB</span>
+        </div>
+    </section>
 </body>
+
 </html>

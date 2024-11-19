@@ -1,38 +1,177 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Rodrigo Pinto</title>
+    <title>HTML</title>
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'Forum', 'DM Sans', 'Poppins', sans-serif;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        td {
+            color: #555;
+        }
+
+        td:last-child {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <h1 class="nav-logo">Rodrigo Pinto</h1>
-        <nav class="nav-bar">
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="#presentation">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#technologies">Tecnologias</a></li>
+        <nav>
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
             </ul>
         </nav>
-        <a href="" class="nav-button">Contactar</a>
     </header>
-        <main>
-            <section class="presentation-section">
-                <picture>
-                    <img src="images/eu.jpeg" alt="">
-                </picture>
-                <div class="presentation-box-text">
-                    <span class="presentation-subtitle">Desenvolvedor Web</span>
-                    <h1 class="presentation-title">Rodrigo Pinto</h1>
-                    <p class="presentation-text">
-                        Sou um desenvolvedor web especializado em frontend, com experiência sólida na criação de interfaces de utilizador envolventes e de alta qualidade. Tenho um histórico comprovado de colaboração em diversos projetos, nos quais demonstrei a minha capacidade de transformar designs em websites funcionais e esteticamente agradáveis.
-                    </p>
-                </div>
-            </section>
-            <section class="projects" id="projects"></section>
-        </main>
+    <main>
+        <section id="sobremim">
+            <h1>Rodrigo Pinto</h1>
+            <img src="images/eu.jpeg" alt="">
+            <h1><u>Sobre mim</u></h1>
+            <p>
+                Sou um desenvolvedor web especializado em frontend, com experiência sólida na criação de interfaces de
+                utilizador envolventes e de alta qualidade. Tenho um histórico comprovado de colaboração em diversos
+                projetos, nos quais demonstrei a minha capacidade de transformar designs em websites funcionais e
+                esteticamente agradáveis.
+                Destaco-me pela minha atenção aos detalhes, habilidade em resolver problemas e dedicação em proporcionar
+                uma experiência de utilizador excepcional. Estou comprometido em oferecer serviços que atendam às
+                necessidades específicas de cada cliente, garantindo resultados que se destacam da concorrência.
+            </p>
+            <h3>Hobbies</h3>
+            <p>Meus hobbies são os estudos e explorar novos conhecimentos, além de relaxar a assistir vídeos que
+                despertam o meu interesse e curiosidade.</p>
+        </section>
+        <hr />
+        <section class="projetos" id="projetos">
+            <h1><u>Projetos</u></h1>
+            <ul style="list-style: none;">
+                <li>
+                    <h3>Loja de Roupa Online</h3>
+                    <p>Tecnologias utilizadas: <i>HTML / CSS / JS</i></p>
+                    <img src="images/markfleek1site.png" alt="">
+                </li>
+                <div>
+                    <h3>Loja de Roupa Online</h3>
+                    <p>Tecnologias utilizadas: <i>WORDPRESS</i></p>
+                    <img src="images/markfleeksite2.png" alt="">
+                    </li>
+                    <li>
+                        <h3>Portfolio</h3>
+                        <p>Tecnologias utilizadas: <i>HTML / CSS / JS / JSON</i></p>
+                        <img src="images/portfoliosite.png" alt="">
+                    </li>
+                    <li>
+                        <h3>Casa Antiga Restaurante</h3>
+                        <p>Tecnologias utilizadas: <i>HTML / CSS / JS / PHP</i></p>
+                        <img src="images/casaantigasite.png" alt="">
+                    </li>
+            </ul>
+        </section>
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Projetos</th>
+                <th>Objetivo</th>
+                <th>Tecnologias</th>
+                <th>Dificuldades</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Casa Antiga</td>
+                <td>PAP</td>
+                <td>HTML / CSS / JAVASCRIPT / LARAVEL / JSON</td>
+                <td>Design do WebSite</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>MarkFleek</td>
+                <td>Trabalho PSI</td>
+                <td>HTML / CSS / JAVASCRIPT / JSON</td>
+                <td>Fazer o LightMode e o DarkMode</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>MarkFleek</td>
+                <td>Trabalho PSI</td>
+                <td>WORDPRESS</td>
+                <td>Aprender a lidar com o elementor no incio</td>
+            </tr>
+        </table>
+        <hr />
+        <section class="tecnologias" id="tecnologias">
+            <h1><u>Tecnologias</u></h1>
+            <ul>
+                <li>
+                    <span title="HyperText Markup Language">HTML</span>
+                </li>
+                <li>
+                    <span title="Cascading Style Sheet">CSS</span>
+                </li>
+                <li>
+                    <span title="JavaScript">JavaScript</span>
+                </li>
+                <li>
+                    <span title="Hypertext Preprocessor">PHP</span>
+                </li>
+                <li>
+                    <span title="C Sharp">C#</span>
+                </li>
+                <li>
+                    <span title="Python">Python</span>
+                </li>
+                <li>
+                    <span title="JavaScript Object Notation">Json</span>
+                </li>
+            </ul>
+        </section>
+        <hr />
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/rodrigofpinto">@Rodrigo Pinto</a></p>
+    </footer>
 </body>
+
 </html>
