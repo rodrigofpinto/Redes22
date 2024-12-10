@@ -1,0 +1,39 @@
+.section-experiences {
+    display: flex;
+    justify-content: center;
+}
+.box-experiences {
+    height: fit-content;
+    width: 70%;
+    border: 1px solid #ffffff6e;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    background: rgba(35, 38, 57, 10%);
+}
+.row-experiences {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.circle-experiences {
+    position: relative;
+    background: #232639;
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+}
+.circle-experiences::after {
+    content: "";
+    position: absolute;
+top: 50%;
+left: 50%;
+
+    background: var(--color3);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
