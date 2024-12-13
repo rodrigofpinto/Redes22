@@ -3,38 +3,41 @@
     align-items: center;
     justify-content: center;
 
-height: 335px;
-g   ap: 0px;
-
-
+    height: 335px;
+    gap: 0px;
 }
+
 .box-certeficates {
     width: 50%;
     height: 100%;
-    
+
 }
+
 .box-certeficates.left {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.box-certeficates.left > div {
+
+.box-certeficates.left>div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 90%;
 }
-.box-certeficates.left > div > div {
+
+.box-certeficates.left>div>div {
     display: flex;
     flex-direction: column;
     padding: 5px;
     border-bottom-left-radius: 5px;
-    border-left: 1px solid #ffffff54 ;
-    border-bottom: 1px solid #ffffff54 ;
+    border-left: 1px solid #ffffff54;
+    border-bottom: 1px solid #ffffff54;
 }
+
 .certeficates-img {
     height: 100%;
 }

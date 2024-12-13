@@ -6,8 +6,34 @@
     width: 100%;
     border-top: 1px solid var(--color3);
     border-bottom: 1px solid var(--color3);
+    position: relative;
 
+}
+.banner > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.banner > div > .button {
+    margin-top: 20px;
 }
 .banner-title {
     font-size: 60px;
 }
+.banner::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0; 
+}
+
+.banner::before {
+    width: 300px; 
+    height: 300px;
+    left: 00px; 
+    bottom: 100px; 
+    background: radial-gradient(circle,#6E46E5,#194EC4,transparent);
+    transform: translateX(-50%);
+    filter: blur(100px); 
+}
+
