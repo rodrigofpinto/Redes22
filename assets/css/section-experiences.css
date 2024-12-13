@@ -1,6 +1,5 @@
 .section-experiences {
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -11,11 +10,6 @@
 
 .box-experiences {
     position: relative;
-=======
-    justify-content: center;
-}
-.box-experiences {
->>>>>>> 0adcc3278e0914d351fa7f9e2baa4b392162022d
     height: fit-content;
     width: 70%;
     border: 1px solid #ffffff6e;
@@ -26,7 +20,6 @@
     padding: 30px 20px;
     background: rgba(35, 38, 57, 10%);
 }
-<<<<<<< HEAD
 .box-experiences::before,
 .box-experiences::after {
     content: "";
@@ -55,8 +48,7 @@
 
 .row-experiences {
     display: grid;
-    grid-template-columns: 150px 50px 700px;
-    
+    grid-template-columns: 150px 50px 60%;
     justify-content: center;
     margin-top: 50px;
     
@@ -64,17 +56,10 @@
 }
 .row-experiences:nth-child(4) > .circle-experiences > span {
     display: none;
-=======
-.row-experiences {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
->>>>>>> 0adcc3278e0914d351fa7f9e2baa4b392162022d
 }
 .circle-experiences {
     position: relative;
     background: #232639;
-<<<<<<< HEAD
     width: 27px;
     height: 27px;
     border-radius: 50%;
@@ -86,24 +71,11 @@
     position: absolute;
     top: 50%;
     left: 50%;
-=======
-    width: 30px;
-    height: 20px;
-    border-radius: 50%;
-}
-.circle-experiences::after {
-    content: "";
-    position: absolute;
-top: 50%;
-left: 50%;
-
->>>>>>> 0adcc3278e0914d351fa7f9e2baa4b392162022d
     background: var(--color3);
     width: 4px;
     height: 4px;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-<<<<<<< HEAD
 }
 
 .circle-experiences span {
@@ -125,6 +97,4 @@ left: 50%;
 }
 .box-text-experiences p {
     color: #dadadae2;
-=======
->>>>>>> 0adcc3278e0914d351fa7f9e2baa4b392162022d
 }

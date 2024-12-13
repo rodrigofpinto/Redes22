@@ -13,6 +13,19 @@
     --font2: "Inter", sans-serif;
 
 }
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #212123;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--color2);   
+    border: 1px solid #ffffff25;
+    border-radius: 20px;      
+  }
 * {
     padding: 0;
     margin: 0;
@@ -28,6 +41,14 @@ body {
 a {
     color: var(--color3);
     text-decoration: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo > img{
+    height: 40px;
 }
 .button {
     color: var(--color3);
