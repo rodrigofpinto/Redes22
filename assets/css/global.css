@@ -93,3 +93,9 @@ a {
 .link:hover {
     color: var(--color1);
 }
+@keyframes appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

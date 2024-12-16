@@ -7,8 +7,8 @@
 }
 .box-projects {
     display: grid;
-    grid-template-columns: 250px 250px 250px ;
-    gap: 50px;
+    grid-template-columns: 250px 250px 250px;
+    gap:  30px 60px;
     flex-wrap: wrap;
     margin-top: 20px;
 }
@@ -45,4 +45,16 @@
 }
 .section-projects .button {
     margin-top: 20px;
+}
+
+.card-project {
+    opacity: 0; /* Começa invisível */
+    transform: translateY(100%);
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

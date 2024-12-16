@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Casa Antiga",
+      "details": "HTML / CSS / JavaScript / Laravel",
+      "image": "assets/images/casaantigasite.png",
+      "link": ""
+    },
+    {
+      "name": "MarkFleek WP",
+      "details": "WordPress",
+      "image": "assets/images/markfleeksite2.png",
+      "link": ""
+    },
+    {
+      "name": "MarkFleek",
+      "details": "HTML / CSS / JavaScript",
+      "image": "assets/images/markfleek1site.png",
+      "link": "https://markfleek.netlify.app/"
+    },
+    {
+      "name": "Portefolio",
+      "details": "HTML / CSS / JavaScript / Json",
+      "image": "assets/images/portfoliosite.png",
+      "link": ""
+    },
+    {
+      "name": "Mario e Luigi UI",
+      "details": "HTML / CSS / JavaScript",
+      "image": "assets/images/mario_luigi_img.jpeg",
+      "link": ""
+    },
+    {
+      "name": "Coca Cola UI",
+      "details": "HTML / CSS / JavaScript",
+      "image": "assets/images/coca_cola_img.jpeg",
+      "link": ""
+    }
+  ]
+  
