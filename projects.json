@@ -1,39 +1,44 @@
 [
     {
-      "name": "Casa Antiga",
-      "details": "HTML / CSS / JavaScript / Laravel",
-      "image": "assets/images/casaantigasite.png",
-      "link": "#"
+      "name": "Casa Antiga Website",
+      "image": "assets/images/casaantiga_site.png",
+      "tags": ["HTML", "CSS", "PHP", "LARAVEL", "MYSQL"],
+      "link": "https://casantiga.netlify.app"
     },
     {
-      "name": "MarkFleek WP",
-      "details": "WordPress",
-      "image": "assets/images/markfleeksite2.png",
-      "link": "#"
-    },
-    {
-      "name": "MarkFleek",
-      "details": "HTML / CSS / JavaScript",
-      "image": "assets/images/markfleek1site.png",
-      "link": "https://markfleek.netlify.app/"
-    },
-    {
-      "name": "Portefolio",
-      "details": "HTML / CSS / JavaScript / Json",
-      "image": "assets/images/portfoliosite.png",
+      "name": "Casa Antiga Dashboard",
+      "image": "assets/images/dashboard.png",
+      "tags": ["HTML", "CSS", "PHP", "LARAVEL", "MYSQL"],
       "link": ""
     },
-    {
-      "name": "Mario e Luigi UI",
-      "details": "HTML / CSS / JavaScript",
+      {
+      "name": "UI do Site do Filme - Mario e Luigi",
       "image": "assets/images/mario_luigi_img.jpeg",
-      "link": ""
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/rodrigofpinto/projeto-mario"
+    },
+      {
+      "name": "UI do Site da Coca Cola",
+      "image": "assets/images/coca_cola_img.jpeg",
+      "tags": ["HTML", "CSS"],
+      "link": "https://github.com/rodrigofpinto/projeto-coca-cola"
     },
     {
-      "name": "Coca Cola UI",
-      "details": "HTML / CSS / JavaScript",
-      "image": "assets/images/coca_cola_img.jpeg",
-      "link": ""
+      "name": "UI do Login Asseto Corsa",
+      "image": "assets/images/login_asseto_img.jpeg",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/rodrigofpinto/projeto-login"
+    },
+    {
+      "name": "Mark Fleek",
+      "image": "assets/images/markfleek_img.jpeg",
+      "tags": ["HTML", "CSS", "JavaScript", "Json", "PHP"],
+      "link": "https://github.com/rodrigofpinto/markfleek"
+    },
+    {
+      "name": "Mark Fleek Store",
+      "image": "assets/images/markfleekwp_img.jpeg",
+      "tags": ["WordPress"],
+      "link": "https://markfleek.kesug.com"
     }
-  ]
-  
+]

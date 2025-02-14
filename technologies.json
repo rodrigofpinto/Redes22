@@ -1,0 +1,42 @@
+[
+    {
+      "name": "html",
+      "image": "assets/images/technologies/html-icon.png"
+    },
+    {
+      "name": "css",
+      "image": "assets/images/technologies/css-icon.png"
+    },
+    {
+      "name": "javascript",
+      "image": "assets/images/technologies/javascript-icon.png"
+    },
+    {
+      "name": "sass",
+      "image": "assets/images/technologies/sass-icon.png"
+    },
+    {
+      "name": "tailwind",
+      "image": "assets/images/technologies/tailwind-icon.png"
+    },
+    {
+      "name": "bootsrap",
+      "image": "assets/images/technologies/bootsrap-icon.png"
+    },
+    {
+      "name": "figma",
+      "image": "assets/images/technologies/figma-icon.png"
+    },
+    {
+      "name": "photoshop",
+      "image": "assets/images/technologies/photoshop-icon.png"
+    },
+    {
+      "name": "python",
+      "image": "assets/images/technologies/python-icon.png"
+    },
+    {
+      "name": "java",
+      "image": "assets/images/technologies/java-icon.png"
+    }
+]
